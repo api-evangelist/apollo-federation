@@ -1,0 +1,28 @@
+aid: apollo-federation
+name: Apollo Federation
+description: >-
+  Apollo Federation is an architecture for building a unified supergraph that composes multiple GraphQL APIs into a single endpoint.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Microservices
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: apollo-federation:apollo-federation
+    name: Apollo Federation
+    description: >-
+      Apollo Federation is an architecture for building a unified supergraph that composes multiple GraphQL APIs into a single endpoint.
+    humanURL: https://github.com/api-evangelist/apollo-federation
+    tags:
+      - Microservices
+    properties: []
+common:
+  - type: Website
+    url: https://github.com/api-evangelist/apollo-federation
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
