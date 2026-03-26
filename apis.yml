@@ -35,7 +35,13 @@ apis:
       - API Gateway
       - Microservices
       - Subgraphs
-    properties: []
+    properties:
+      - type: JSONSchema
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/json-schema/supergraph-configuration.json
+      - type: JSONSchema
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/json-schema/router-configuration.json
 common:
   - type: Website
     url: https://www.apollographql.com/
