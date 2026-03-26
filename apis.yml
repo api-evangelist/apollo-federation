@@ -1,11 +1,19 @@
 aid: apollo-federation
 name: Apollo Federation
 description: >-
-  Apollo Federation is an architecture for building a unified supergraph that composes multiple GraphQL APIs into a single endpoint.
+  Apollo Federation is an architecture and platform for building a unified
+  supergraph that composes multiple GraphQL APIs (subgraphs) into a single
+  distributed GraphQL endpoint, enabling teams to work independently on
+  different parts of the graph while delivering a unified API to consumers.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - GraphQL
+  - Federation
+  - Supergraph
+  - API Gateway
   - Microservices
+  - Subgraphs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +23,34 @@ apis:
   - aid: apollo-federation:apollo-federation
     name: Apollo Federation
     description: >-
-      Apollo Federation is an architecture for building a unified supergraph that composes multiple GraphQL APIs into a single endpoint.
-    humanURL: https://github.com/api-evangelist/apollo-federation
+      Apollo Federation is an architecture and platform for building a unified
+      supergraph that composes multiple GraphQL APIs (subgraphs) into a single
+      distributed GraphQL endpoint, enabling teams to work independently on
+      different parts of the graph while delivering a unified API to consumers.
+    humanURL: https://www.apollographql.com/docs/federation/
     tags:
+      - GraphQL
+      - Federation
+      - Supergraph
+      - API Gateway
       - Microservices
+      - Subgraphs
     properties: []
 common:
   - type: Website
-    url: https://github.com/api-evangelist/apollo-federation
+    url: https://www.apollographql.com/
+  - type: Documentation
+    url: https://www.apollographql.com/docs/
+  - type: Getting Started
+    url: https://www.apollographql.com/docs/federation/quickstart/
+  - type: GitHub
+    url: https://github.com/apollographql
+  - type: Blog
+    url: https://www.apollographql.com/blog/
+  - type: Pricing
+    url: https://www.apollographql.com/pricing/
+  - type: Sign Up
+    url: https://studio.apollographql.com/signup
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
