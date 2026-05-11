@@ -138,6 +138,16 @@ common:
         description: Deploy Apollo Router as a Kubernetes service via Helm charts and operator patterns.
       - name: Terraform
         description: Official Terraform provider for Apollo GraphOS management.
+  - type: Integrations
+    url: https://www.apollographql.com/partners
+integrations:
+  - name: Logo 1
+  - name: Logo 2
+  - name: Logo 3
+  - name: Logo 4
+  - name: Logo 5
+  - name: Logo 6
+  - name: Logo 7
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
