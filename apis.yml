@@ -20,7 +20,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-04-19'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: apollo-federation:apollo-federation
@@ -140,6 +140,9 @@ common:
         description: Official Terraform provider for Apollo GraphOS management.
   - type: Integrations
     url: https://www.apollographql.com/partners
+  - name: MCP Server
+    url: https://github.com/apollographql/apollo-mcp-server
+    type: MCPServer
 integrations:
   - name: Logo 1
   - name: Logo 2
