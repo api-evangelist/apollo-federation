@@ -143,6 +143,8 @@ common:
   - name: MCP Server
     url: https://github.com/apollographql/apollo-mcp-server
     type: MCPServer
+  - type: LLMsTxt
+    url: https://www.apollographql.com/llms.txt
 integrations:
   - name: Logo 1
   - name: Logo 2
