@@ -2,12 +2,17 @@
   "repo": "apollo-federation",
   "feeds": [
     {
-      "source": "https://www.apollographql.com/blog/",
-      "feed_url": "https://www.apollographql.com/blog/rss.xml",
-      "title": "Blog posts | RSS Feed",
-      "saved": 41
+      "source": "https://www.apollographql.com/blog/rss.xml",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://github.com/apollographql/federation-jvm",
+      "feed_url": "https://github.com/apollographql/federation-jvm",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 52,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 53,
+  "fetched": "2026-06-01T23:35:02Z"
 }
